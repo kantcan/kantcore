@@ -1,7 +1,7 @@
 # KantCore
 > A utility library for my scripts on CS:GO cheats.
 
-At the moment, there's nothing here - I'm still in the process of writing it.
+At the moment, there's only Underscore.moon, a port of Underscore.js
 
 The license for Kantcore is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) - Here's what that means:
 
