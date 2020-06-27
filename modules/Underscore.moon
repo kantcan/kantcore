@@ -92,7 +92,8 @@ U = {
 		nil ~= U.indexOf List, Element
 	invoke: (List, Method, ...) -> -- Returns list of value[method] ...
 		assertTable List, "invoke: expected Table for arg#1, got #{type List}"
-		U.map List, (V) -> V[Method] ...
+		Args = {...}
+		U.map List, (V) -> V[Method] unpack Args
 	pluck: (List, Key) -> -- Returns list of each value[key]
 		assertTable List, "pluck: expected Table for arg#1, got #{type List}"
 		U.map List, (V, I) ->
