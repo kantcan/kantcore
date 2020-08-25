@@ -119,7 +119,7 @@ U = {
 			if Fn V, I, List
 				table.insert Pass, V
 			else table.insert Fail, V
-		Pass, Vail
+		Pass, Fail
 	compact: (List) -> -- Filter out falsy values
 		assertTable List, "compact: expected Table for arg#1, got #{type List}"
 		U.filter List, (V) -> V
